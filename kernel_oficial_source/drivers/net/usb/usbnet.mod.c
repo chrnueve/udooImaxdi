@@ -1,0 +1,116 @@
+#include <linux/module.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+
+struct module __this_module
+__attribute__((section(".gnu.linkonce.this_module"))) = {
+ .name = KBUILD_MODNAME,
+ .init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+ .exit = cleanup_module,
+#endif
+ .arch = MODULE_ARCH_INIT,
+};
+
+static const struct modversion_info ____versions[]
+__used
+__attribute__((section("__versions"))) = {
+	{ 0x62d8458c, "module_layout" },
+	{ 0xa1c6ec97, "netdev_info" },
+	{ 0xae393b97, "mii_ethtool_gset" },
+	{ 0x12da5bb2, "__kmalloc" },
+	{ 0x311b7963, "_raw_spin_unlock" },
+	{ 0x3ec8886f, "param_ops_int" },
+	{ 0x64cf866e, "dev_set_drvdata" },
+	{ 0x79aa04a2, "get_random_bytes" },
+	{ 0x718565d5, "remove_wait_queue" },
+	{ 0xf7802486, "__aeabi_uidivmod" },
+	{ 0xa083162e, "usb_get_from_anchor" },
+	{ 0x11f7ed4c, "hex_to_bin" },
+	{ 0x8949858b, "schedule_work" },
+	{ 0x2a3aa678, "_test_and_clear_bit" },
+	{ 0xb324c893, "netif_carrier_off" },
+	{ 0x4205ad24, "cancel_work_sync" },
+	{ 0x488794c, "usb_kill_urb" },
+	{ 0x7426f76c, "init_timer_key" },
+	{ 0x17524e86, "usb_autopm_get_interface" },
+	{ 0xd9cf00fa, "usb_get_urb" },
+	{ 0x19f6fdc3, "usb_unlink_urb" },
+	{ 0x7d11c268, "jiffies" },
+	{ 0x73e31c2f, "netif_rx" },
+	{ 0x41e92619, "__init_waitqueue_head" },
+	{ 0xffd5a395, "default_wake_function" },
+	{ 0xe707d823, "__aeabi_uidiv" },
+	{ 0xfa2a45e, "__memzero" },
+	{ 0xa4476cec, "del_timer_sync" },
+	{ 0x26aee72c, "skb_queue_purge" },
+	{ 0x5f754e5a, "memset" },
+	{ 0x996e0270, "usb_string" },
+	{ 0x7177ba9c, "mii_nway_restart" },
+	{ 0x74c97f9c, "_raw_spin_unlock_irqrestore" },
+	{ 0x8a94e7b3, "__mutex_init" },
+	{ 0xc1200d05, "ethtool_op_get_link" },
+	{ 0x27e1a049, "printk" },
+	{ 0x27bfa11, "usb_set_interface" },
+	{ 0xd92ef473, "free_netdev" },
+	{ 0x6afb9c58, "usb_autopm_put_interface_async" },
+	{ 0xfaef0ed, "__tasklet_schedule" },
+	{ 0x328a05f1, "strncpy" },
+	{ 0x6fa51b95, "register_netdev" },
+	{ 0xc212a112, "_raw_spin_unlock_irq" },
+	{ 0x16305289, "warn_slowpath_null" },
+	{ 0x53985936, "mod_timer" },
+	{ 0x951e9c67, "dev_kfree_skb_any" },
+	{ 0x82072614, "tasklet_kill" },
+	{ 0xe2f9d05c, "skb_queue_tail" },
+	{ 0x30d9fcaf, "netif_device_attach" },
+	{ 0x5a7d0e10, "usb_submit_urb" },
+	{ 0x678a39c3, "netif_device_detach" },
+	{ 0x11d00927, "__alloc_skb" },
+	{ 0xc2338b67, "usb_get_dev" },
+	{ 0xe46711b5, "usb_autopm_get_interface_async" },
+	{ 0xd52ddac5, "pm_runtime_enable" },
+	{ 0x3bd1b1f6, "msecs_to_jiffies" },
+	{ 0xfd48dc06, "usb_put_dev" },
+	{ 0xd62c833f, "schedule_timeout" },
+	{ 0xef1579a8, "usb_clear_halt" },
+	{ 0xd59daefe, "_raw_spin_lock_irq" },
+	{ 0x121eae4, "eth_type_trans" },
+	{ 0xc27487dd, "__bug" },
+	{ 0x1a0a161d, "netdev_err" },
+	{ 0xc2161e33, "_raw_spin_lock" },
+	{ 0xbd7083bc, "_raw_spin_lock_irqsave" },
+	{ 0x72542c85, "__wake_up" },
+	{ 0x3421aae8, "eth_validate_addr" },
+	{ 0x3fdacc6f, "add_wait_queue" },
+	{ 0x37a0cba, "kfree" },
+	{ 0x9d669763, "memcpy" },
+	{ 0xedf881aa, "skb_dequeue" },
+	{ 0xd209076d, "unregister_netdev" },
+	{ 0xefd6cf06, "__aeabi_unwind_cpp_pr0" },
+	{ 0x676bbc0f, "_set_bit" },
+	{ 0x701d0ebd, "snprintf" },
+	{ 0xdbb1a5ea, "mii_link_ok" },
+	{ 0x65785519, "__netif_schedule" },
+	{ 0xca54fee, "_test_and_set_bit" },
+	{ 0x3497de8a, "consume_skb" },
+	{ 0x49ebacbd, "_clear_bit" },
+	{ 0xc5e0b963, "skb_put" },
+	{ 0xd7ec6827, "eth_mac_addr" },
+	{ 0xa3dda44, "dev_get_drvdata" },
+	{ 0xb02abf26, "usb_free_urb" },
+	{ 0x39924cc3, "mii_ethtool_sset" },
+	{ 0x7e47132a, "usb_autopm_put_interface" },
+	{ 0x36ba9344, "usb_anchor_urb" },
+	{ 0xd2f088ed, "usb_alloc_urb" },
+	{ 0xe914e41e, "strcpy" },
+	{ 0x61eb981, "alloc_etherdev_mqs" },
+};
+
+static const char __module_depends[]
+__used
+__attribute__((section(".modinfo"))) =
+"depends=";
+

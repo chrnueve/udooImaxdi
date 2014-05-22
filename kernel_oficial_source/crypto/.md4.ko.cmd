@@ -1,0 +1,1 @@
+cmd_crypto/md4.ko := ../arm-fsl-linux-gnueabi/bin/arm-fsl-linux-gnueabi-ld -EL -r  -T /home/cgil/udoo/kernel_oficial_source/scripts/module-common.lds --build-id  -o crypto/md4.ko crypto/md4.o crypto/md4.mod.o

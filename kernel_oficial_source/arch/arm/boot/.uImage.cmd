@@ -1,0 +1,1 @@
+cmd_arch/arm/boot/uImage := /bin/bash /home/cgil/udoo/kernel_oficial_source/scripts/mkuboot.sh -A arm -O linux -T kernel -C none -a 0x10008000 -e 0x10008000 -n 'Linux-3.0.35Christian_Gil_Udoo-g3b2c06e-dirty' -d arch/arm/boot/zImage arch/arm/boot/uImage

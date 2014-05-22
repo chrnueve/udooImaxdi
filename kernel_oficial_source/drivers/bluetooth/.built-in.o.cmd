@@ -1,0 +1,1 @@
+cmd_drivers/bluetooth/built-in.o :=  ../arm-fsl-linux-gnueabi/bin/arm-fsl-linux-gnueabi-ld -EL    -r -o drivers/bluetooth/built-in.o drivers/bluetooth/hci_uart.o drivers/bluetooth/btusb.o drivers/bluetooth/btsdio.o 

@@ -1,0 +1,2 @@
+#!/bin/bash
+make modules_install INSTALL_MOD_PATH=.. CROSS_COMPILE=../arm-fsl-linux-gnueabi/bin/arm-fsl-linux-gnueabi- ARCH=arm 

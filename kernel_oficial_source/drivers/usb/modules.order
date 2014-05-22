@@ -1,0 +1,7 @@
+kernel/drivers/usb/serial/ftdi_sio.ko
+kernel/drivers/usb/serial/oti6858.ko
+kernel/drivers/usb/serial/pl2303.ko
+kernel/drivers/usb/class/cdc-acm.ko
+kernel/drivers/usb/class/cdc-wdm.ko
+kernel/drivers/usb/class/cdc-acm.ko
+kernel/drivers/usb/class/cdc-wdm.ko

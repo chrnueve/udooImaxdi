@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/cdc_ether.ko := ../arm-fsl-linux-gnueabi/bin/arm-fsl-linux-gnueabi-ld -EL -r  -T /home/cgil/udoo/kernel_oficial_source/scripts/module-common.lds --build-id  -o drivers/net/usb/cdc_ether.ko drivers/net/usb/cdc_ether.o drivers/net/usb/cdc_ether.mod.o

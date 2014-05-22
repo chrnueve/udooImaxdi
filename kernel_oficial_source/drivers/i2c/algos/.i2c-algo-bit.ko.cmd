@@ -1,0 +1,1 @@
+cmd_drivers/i2c/algos/i2c-algo-bit.ko := ../arm-fsl-linux-gnueabi/bin/arm-fsl-linux-gnueabi-ld -EL -r  -T /home/cgil/udoo/kernel_oficial_source/scripts/module-common.lds --build-id  -o drivers/i2c/algos/i2c-algo-bit.ko drivers/i2c/algos/i2c-algo-bit.o drivers/i2c/algos/i2c-algo-bit.mod.o

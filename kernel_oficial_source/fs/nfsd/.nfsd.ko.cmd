@@ -1,0 +1,1 @@
+cmd_fs/nfsd/nfsd.ko := ../arm-fsl-linux-gnueabi/bin/arm-fsl-linux-gnueabi-ld -EL -r  -T /home/cgil/udoo/kernel_oficial_source/scripts/module-common.lds --build-id  -o fs/nfsd/nfsd.ko fs/nfsd/nfsd.o fs/nfsd/nfsd.mod.o
