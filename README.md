@@ -1,4 +1,4 @@
 udooImaxdi
 ==========
 
-Scripts used for fast building Kernel on Udoo
+Kernel and compiler used for building Kernel for Udoo Quad
