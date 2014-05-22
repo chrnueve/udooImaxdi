@@ -1,4 +1,4 @@
 udooImaxdi
 ==========
 
-Kernel Optimizations for Udoo used in Imaxdi
+Scripts used for fast building Kernel on Udoo
